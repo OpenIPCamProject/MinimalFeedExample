@@ -20,10 +20,6 @@ for i in range(0, CAPTURE_FRAMES):
     # Convert frame to bytes
     img_bytes = cv2.imencode('.jpg', frame)[1].tobytes()
 
-
-    with open('frame.jpg', 'wb') as f:
-        f.write(img_bytes)
-
     # encode bytes before sending
     img_b64 = encode_base64(img_bytes)
 
