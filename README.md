@@ -5,3 +5,7 @@ This respository stores an extremely basic camera recording example with both cl
 
 OpenIPCam is has a lot of components, Im just storing this here while I work on the recoding process. This is not a release.
 
+# Libraries
+* CV2
+* Numpy
+* Flask
